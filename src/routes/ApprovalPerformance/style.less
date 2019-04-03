@@ -1,0 +1,213 @@
+@import '~antd/lib/style/themes/default.less';
+.flowsDesigns {
+  width: 100%;
+  max-width: 370px;
+  ul {
+    position: relative;
+    &:after {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 100%;
+      position: absolute;
+      left: 35px;
+      top: 0;
+      border-left: 1px dashed #c7c7c7;
+      z-index: 1;
+    }
+    li {
+      position: relative;
+      width: 100%;
+      margin-bottom: 20px;
+      z-index: 3;
+      cursor: pointer;
+      &:hover {
+        .operation {
+          display: block;
+        }
+      }
+    }
+  }
+  .setBorder {
+    border: 1px solid #dedede;
+    display: flex;
+    strong {
+      display: inline-block;
+      width: 70px;
+      line-height: 70px;
+      text-align: center;
+      background: #f3f3f3;
+    }
+    p {
+      margin-bottom: 0;
+    }
+    .nameExamine {
+      flex: 1;
+      padding: 10px;
+      padding-right: 20px;
+      width: 100%;
+      word-wrap: break-word;
+    }
+  }
+  .operation {
+    position: absolute;
+    top: -11px;
+    right: 30px;
+    padding: 2px;
+    background: #fff;
+    display: none;
+  }
+  :global {
+    .ant-btn {
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+  }
+}
+.setLine {
+  width: 70px;
+  background-color: #1890ff;
+  div {
+    width: 0;
+    height: 0;
+    border-width: 20px 40px 20px 0;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+    margin-top: 15px;
+    margin-left: 20px;
+    transform: rotate(-180deg);
+  }
+}
+:global {
+  .ant-popover {
+    z-index: 8;
+  }
+}
+
+.payTaxRateTable {
+  width: 100%;
+  table {
+    border-collapse: collapse;
+  }
+  tr td:first-child {
+    padding: 5px 10px 5px 5px;
+    text-align: right;
+  }
+  //table tr:first-child td:first-child {
+  //  border-top-left-radius: 5px;
+  //}
+  //table tr:first-child td:last-child {
+  //  border-top-right-radius: 5px;
+  //}
+  //table tr:last-child td:first-child {
+  //  border-bottom-left-radius: 5px;
+  //}
+  //table tr:last-child td:last-child {
+  //  border-bottom-right-radius: 5px;
+  //}
+  th,
+  td {
+    border: 1px solid rgba(224, 224, 224, 1);
+    height: 40px;
+  }
+}
+.noBorder {
+  border: 1px solid #fff;
+  float: right;
+  width: 80%;
+}
+.lableRight {
+  width: 10%;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+}
+.auatorIco {
+  color: #fff;
+  background-color: #4b85f8;
+}
+.avatorHeight {
+  :global {
+    .ant-steps-item-custom .ant-steps-item-icon .ant-steps-icon {
+      line-height: 0;
+    }
+  }
+}
+.flowCard{
+  margin-top:25px;
+  :global{
+    .ant-card-head{
+      text-align: center;
+    }
+  }
+}
+
+.flowRecord {
+  label {
+    display: inline-block;
+    font-weight: 600;
+    width: 100px;
+    font-size: 14px;
+    word-break: break-all;
+    line-height: 20px;
+  }
+  .flowOk {
+    display: inline-block;
+    color: #6bbe39;
+    width: 100px;
+    font-size: 14px;
+  }
+  .flowNo {
+    display: inline-block;
+    color: #ee7356;
+    width: 100px;
+    font-size: 14px;
+  }
+  .flowStart {
+    display: inline-block;
+    color: #4e86ff;
+    width: 100px;
+    font-size: 14px;
+  }
+  .flowTime {
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    width: 200px;
+  }
+  span{
+    display: inline-block;
+    height: auto;
+    word-break: break-all;
+    vertical-align: top;
+  }
+}
+.selectData {
+  span {
+    display: inline-block;
+    padding: 0 5px;
+    border: 1px solid hsv(0, 0, 85%);
+    border-radius: 3px;
+    line-height: 30px;
+    i {
+      cursor: pointer;
+      &:hover {
+        color: #1890ff;
+      }
+    }
+  }
+}
+
+.textFormat{
+  position:relative;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.inputPlaceholder{
+  input::-webkit-input-placeholder{
+  color: red;
+  }
+  }
+
+

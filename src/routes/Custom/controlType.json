@@ -1,0 +1,386 @@
+[
+  {
+    "ctrlType": "text",
+    "chnName": "单行文本",
+    "ctrlName": "单行文本",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请填写文本内容",
+      "options": null,
+      "format": null,
+      "maxLength": 100,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+  {
+    "ctrlType": "textarea",
+    "chnName": "多行文本",
+    "ctrlName": "多行文本",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请填写文本内容",
+      "options": null,
+      "format": null,
+      "maxLength": 500,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+  {
+    "ctrlType": "number",
+    "chnName": "数字",
+    "ctrlName": "数字",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请填写数字",
+      "options": null,
+      "format": null,
+      "maxLength": 2,
+      "defaultValue": "",
+      "rule": "",
+      "unit": "个",
+      "readonly": false,
+      "point": 2
+    }
+  },
+  {
+    "ctrlType": "money",
+    "chnName": "金额",
+    "ctrlName": "金额",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请填写金额",
+      "options": null,
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": "元",
+      "readonly": false,
+      "point": 2
+    }
+  },
+  {
+    "ctrlType": "radio",
+    "chnName": "单选框",
+    "ctrlName": "单选框",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请选择",
+      "options": [
+        { "value": "选项1", "checked": false },
+        { "value": "选项2", "checked": false },
+        { "value": "选项3", "checked": false }
+      ],
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+  {
+    "ctrlType": "checkbox",
+    "chnName": "多选框",
+    "ctrlName": "多选框",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请选择",
+      "options": [
+        { "value": "选项1", "checked": false },
+        { "value": "选项2", "checked": false },
+        { "value": "选项3", "checked": false }
+      ],
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+  {
+    "ctrlType": "dropdown",
+    "chnName": "下拉列表",
+    "ctrlName": "下拉列表",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请选择",
+      "options": [
+        { "value": "选项1", "checked": false },
+        { "value": "选项2", "checked": false },
+        { "value": "选项3", "checked": false }
+      ],
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+  {
+    "ctrlType": "date",
+    "chnName": "日期",
+    "ctrlName": "日期",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请选择日期",
+      "options": null,
+      "format": "YYYY-MM-DD",
+      "maxLength": 0,
+      "defaultValue": "none",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+  {
+    "ctrlType": "datearea",
+    "chnName": "日期区间",
+    "ctrlName": "日期区间",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请选择日期区间",
+      "options": null,
+      "format": "YYYY-MM-DD",
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+  {
+    "ctrlType": "phone",
+    "chnName": "电话号码",
+    "ctrlName": "电话号码",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请填写电话号码",
+      "options": null,
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+  {
+    "ctrlType": "attach",
+    "chnName": "附件",
+    "ctrlName": "附件",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请上传附件",
+      "options": null,
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+  {
+    "ctrlType": "subfrom",
+    "chnName": "子表单",
+    "ctrlName": "子表单",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "子表单",
+      "options": [
+        {
+          "ctrlType": "text",
+          "chnName": "单行文本",
+          "ctrlName": "单行文本",
+          "extentionProps": {
+            "required": false,
+            "placeholder": "请填写文本内容",
+            "options": null,
+            "format": null,
+            "maxLength": 100,
+            "defaultValue": "",
+            "rule": "",
+            "unit": null,
+            "readonly": false
+          }
+        }
+      ],
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+  {
+    "ctrlType": "www",
+    "chnName": "网址",
+    "ctrlName": "网址",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请填写网址",
+      "options": null,
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+  {
+    "ctrlType": "email",
+    "chnName": "邮箱",
+    "ctrlName": "邮箱",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请填写邮箱",
+      "options": null,
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+  {
+    "ctrlType": "user",
+    "chnName": "人员选择",
+    "ctrlName": "人员选择",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请人员选择",
+      "options": null,
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+  {
+    "ctrlType": "area",
+    "chnName": "地区",
+    "ctrlName": "地区",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请填写地区",
+      "options": null,
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+  {
+    "ctrlType": "applyPerson",
+    "chnName": "申请人",
+    "ctrlName": "申请人",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请填写申请人",
+      "options": null,
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": true
+    }
+  },
+  {
+    "ctrlType": "applyTime",
+    "chnName": "申请日期",
+    "ctrlName": "申请日期",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "申请日期",
+      "options": null,
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": true
+    }
+  },
+  {
+    "ctrlType": "chooseProject",
+    "chnName": "选择项目",
+    "ctrlName": "选择项目",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请选择项目",
+      "options": null,
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+
+  {
+    "ctrlType": "chooseMaterialSupplier",
+    "chnName": "选择材料供应商",
+    "ctrlName": "选择材料供应商",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请选择材料供应商",
+      "options": null,
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+  {
+    "ctrlType": "chooseLabourSupplier",
+    "chnName": "选择劳务供应商",
+    "ctrlName": "选择劳务供应商",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请选择劳务供应商",
+      "options": null,
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  },
+  {
+    "ctrlType": "material",
+    "chnName": "选择材料分类",
+    "ctrlName": "选择材料分类",
+    "extentionProps": {
+      "required": false,
+      "placeholder": "请选择材料分类",
+      "options": null,
+      "format": null,
+      "maxLength": 0,
+      "defaultValue": "",
+      "rule": "",
+      "unit": null,
+      "readonly": false
+    }
+  }
+]

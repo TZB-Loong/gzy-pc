@@ -1,0 +1,81 @@
+:global {
+  .react-resizable {
+    position: relative;
+  }
+  .react-resizable-handle {
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    bottom: 0;
+    right: -5px;
+    cursor: col-resize;
+  }
+}
+.resizeTable {
+  table {
+    table-layout: fixed;
+    td {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+  :global {
+    .ant-table-placeholder {
+      display: table-row-group;
+    }
+  }
+}
+.span_label {
+  :global {
+    .ant-transfer-list {
+      .ant-transfer-list-header {
+        .ant-checkbox-wrapper {
+          display: none;
+        }
+      }
+    }
+  }
+}
+.Detaillist {
+  :global {
+    .ant-list-item-content {
+      .ant-col-6 {
+        text-align: right;
+      }
+    }
+    .ant-list-item{
+      cursor: default;
+      &:hover{
+        color: rgba(0, 0, 0, 0.65);
+      }
+    }
+  }
+}
+.filters {
+  padding: 5px;
+  display: inline-block;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  &:hover {
+    border-color: #4a85f8;
+    color: #4a85f8;
+  }
+  i:hover {
+    cursor: pointer;
+  }
+}
+.FormLabel {
+  :global {
+    .ant-form-item {
+      .ant-form-item-label {
+        white-space: inherit;
+        height: 40px;
+        line-height: 20px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+    }
+  }
+}

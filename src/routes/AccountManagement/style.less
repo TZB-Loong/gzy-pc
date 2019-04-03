@@ -1,0 +1,142 @@
+@import '~antd/lib/style/themes/default.less';
+.branch {
+  width: 100%;
+  overflow: hidden;
+  :global {
+    .anticon {
+      float: right;
+      margin-top: 3px;
+    }
+  }
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  button:last-child {
+    margin-left: 5px;
+  }
+}
+.active {
+  background: #4a85f8;
+  margin: 0 -1px;
+  color: #fff !important;
+}
+:global {
+  .ant-layout-header {
+    padding: 0 15px;
+    height: 64px;
+    line-height: 64px;
+    background-color: rgb(74, 133, 248);
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+  .ant-list-item {
+    cursor: pointer;
+    &:hover {
+      color: #4a85f8;
+    }
+  }
+  .ant-tabs-bar {
+    margin-bottom: 10px;
+  }
+  .ant-popover-inner-content {
+    p {
+      margin-bottom: 0;
+      line-height: 30px;
+      cursor: pointer;
+      &:hover {
+        color: @primary-color;
+      }
+    }
+  }
+  .ant-list {
+    & + * {
+      margin-top: 15px;
+    }
+  }
+}
+
+.FormLabel {
+  :global {
+    .ant-form-item {
+      .ant-form-item-label {
+        white-space: inherit;
+        // line-height: 20px;
+      }
+    }
+  }
+}
+.Detaillist {
+  :global {
+    .ant-list-item-content {
+      .ant-col-6 {
+        text-align: right;
+      }
+    }
+  }
+}
+
+// .homepage {
+.topBox {
+  :global {
+    .ant-tabs-bar {
+      margin-bottom: 0px;
+    }
+    i.anticon-minus-circle {
+      margin-top: 12px;
+    }
+  }
+  .waitBid {
+    :global {
+      .ant-table-placeholder {
+        border-bottom: 0px solid #e8e8e8;
+      }
+    }
+  }
+  padding-top: 20px;
+  .topCard {
+    height: 200px;
+    background: #fff;
+    border-radius: 2px;
+    .itemTitle {
+      color: #999;
+      margin-bottom: 20px;
+    }
+    .itemLine {
+      width: 1px;
+      height: 50%;
+      background: #e0e0e0;
+      color: #e0e0e0;
+    }
+    .itemBottomLine {
+      border-bottom: 1px solid #666;
+    }
+    .announcement {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      padding: 4px 0;
+      &:hover {
+        color: #1890ff;
+      }
+    }
+    :global {
+      .ant-tabs-tabpane {
+        padding: 0 5px;
+      }
+    }
+  }
+}
+// }
+.memberRights {
+  .theTitle {
+    font-weight: 900;
+    padding: 5px;
+    font-size: 14px;
+  }
+  .f_12 {
+    font-size: 12px;
+  }
+}

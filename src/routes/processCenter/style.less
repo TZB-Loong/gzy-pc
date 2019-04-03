@@ -1,0 +1,146 @@
+@import '~antd/lib/style/themes/default.less';
+.cardBox {
+  position: relative;
+  border: 1px solid #e8e8e8;
+  width: 100%;
+  //min-width: 240px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  :global{
+    .ant-col-18 {
+      h5{
+        color: #001529;
+        font-size: 14px;
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        max-height: 20px;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        overflow: hidden;
+      }
+    }
+  }
+  &:hover {
+    box-shadow: 0 0 19px rgba(215, 215, 215, 1);
+    //border: 0;
+  }
+}
+
+.formList{
+  .title{
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 35px;
+    span{
+      display: inline-block;
+      border-bottom: 2px solid @primary-color;
+      padding: 10px 7px;
+      margin-bottom: -1px;
+      b{
+        margin-left: 5px;
+      }
+    }
+  }
+}
+.customList{
+  position: relative;
+}
+.customForm{
+  margin: 0 0 40px;
+  width: 80%;
+  &:hover{
+      .operationBtn {
+        display: block;
+      }
+  }
+  :global{
+    .ant-col-18{
+      p{
+        display: -webkit-box;
+        font-size: 12px;
+        color: #001529;
+        text-overflow: ellipsis;
+        max-height: 38px;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+.operationBtn{
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  display: none;
+  font-size: 18px;
+  color: #d3d3d3;
+  z-index: 8;
+  a{
+    color: #d3d3d3;
+  }
+  :global{
+    .anticon{
+      margin-left: 10px;
+      cursor: pointer;
+      &:hover{
+        color: #4a85f8;
+      }
+    }
+
+  }
+  +i{
+    font-size: 54px;
+    position: absolute;
+    right: 20%;
+    color: #70a1ff;
+  }
+}
+.ant-list-item {
+  padding-left: 10px;
+}
+.ant-list-item:hover {
+  background-color: rgb(230, 247, 255);
+}
+
+.flowProceed {
+  color: #666;
+  font-size: 12px;
+}
+.flowError {
+  color: #ee7356;
+  font-size: 12px;
+}
+.flowSucceed {
+  color: #70c040;
+  font-size: 12px;
+}
+
+.textW {
+  width: 500px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.payTaxRateTable {
+  width: 100%;
+  table {
+    border-collapse: collapse;
+  }
+  tr td:first-child {
+    padding: 5px 10px 5px 5px;
+    text-align: right;
+    width: 30%;
+  }
+  th,
+  td {
+    border: 1px solid rgba(224, 224, 224, 1);
+    height: 40px;
+  }
+}

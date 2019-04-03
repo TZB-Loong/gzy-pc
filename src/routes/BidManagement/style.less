@@ -1,0 +1,202 @@
+@import '~antd/lib/style/themes/default.less';
+
+.uploadBtn {
+  display: inline-block;
+
+  > span {
+    display: inline-block;
+    & + span {
+      margin-left: 15px;
+      //vertical-align: super;
+    }
+  }
+  :global{
+    .ant-upload-list-item-info{
+      padding-right: 20px;
+    }
+  }
+
+  a {
+    max-width: 400px;
+  }
+  :global{
+    .ant-upload-list-item-name{
+      max-width: 770px;
+    }
+  }
+}
+.bidMaterial {
+  :global {
+    .ant-popover {
+      z-index: 8;
+    }
+    .anticon-plus,
+    .anticon-pause {
+      margin: 0 10px;
+    }
+    .anticon-pause {
+      transform: rotate(90deg);
+    }
+    .setBorder {
+      border: 1px solid @border-color-base;
+      padding: 5px 15px 10px 15px;
+      border-radius: @border-radius-sm;
+    }
+    .ant-checkbox-group .ant-checkbox-group-item {
+      padding: 10px 0;
+    }
+  }
+}
+.selectData {
+  span {
+    display: inline-block;
+    padding: 0 5px;
+    border: 1px solid @border-color-base;
+    border-radius: 3px;
+    line-height: 30px;
+    margin-right: 10px;
+    i {
+      cursor: pointer;
+      &:hover {
+        color: #1890ff;
+      }
+    }
+  }
+}
+.MaterialView {
+  :global {
+    .ant-card-head {
+      border-bottom: 0;
+    }
+    .ant-list-split .ant-list-item {
+      border-bottom: 0;
+      color: #666;
+      cursor: inherit;
+    }
+    .ant-list-item-content {
+      .ant-col-4 {
+        text-align: right;
+        margin-right: 30px;
+        max-width: 200px;
+        color: #333757;
+      }
+    }
+    .ant-card-head-title {
+      color: #333757;
+      font-size: 21px;
+    }
+    .ant-card-body {
+      padding-top: 0;
+    }
+  }
+  .project {
+    :global {
+      .ant-list-item {
+        border-bottom: 1px solid #dedede;
+        line-height: 30px;
+      }
+      .ant-radio-button-wrapper {
+        border: none;
+        height: 21px; // line-height: 21px;
+        // padding-bottom: 30px;
+        position: inherit;
+        box-shadow: 0 0 0 0 #1890ff;
+      }
+    }
+  }
+  .goodsAddress {
+    height: 21px;
+    overflow: hidden;
+  }
+  .pb_10 {
+    padding-bottom: 10px;
+  }
+  .mb_30 {
+    margin-bottom: 30px;
+  }
+  .mb_15 {
+    margin-bottom: 15px;
+  }
+  .btn_b {
+    background-color: #4b85f8;
+    color: #fff;
+    border-color: #4b85f8;
+  }
+  .lable_z {
+    margin-right: 10px;
+    color: #333757;
+  }
+  .text_d {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .weightText {
+    font-weight: bold;
+    color: #333757;
+  }
+}
+.resizeTable {
+  table {
+    // table-layout: fixed;
+    thead {
+      tr {
+        :last-child {
+          text-align: center;
+        }
+        :nth-child(3) {
+          text-align: center;
+        }
+        :nth-child(4) {
+          text-align: center;
+        }
+      }
+    }
+    tbody {
+      tr {
+        :nth-child(3) {
+          text-align: center;
+        }
+        :nth-child(4) {
+          text-align: center;
+        }
+      }
+      td {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        // white-space: nowrap;
+        // text-align: center;
+      }
+    }
+  }
+  :global {
+    .ant-table-placeholder {
+      // display: table-row-group;
+    }
+  }
+}
+
+.tenderList {
+  :global {
+    .ant-table-tbody > tr > td {
+      min-width: 100px;
+    }
+  }
+}
+.UploadContract {
+  :global {
+    .ant-input-number {
+      width: 200px;
+    }
+  }
+}
+.zhongbiao {
+  color: #fe4646;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  border: 1px solid;
+  transform: rotate(-30deg);
+  font-size: 12px;
+  padding: 0 6px;
+}

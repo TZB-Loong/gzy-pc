@@ -1,0 +1,73 @@
+html,
+body,
+:global(.ant-menu){
+  font-family:  "Microsoft YaHei", "Chinese Quote",
+  -apple-system, BlinkMacSystemFont,
+  "Segoe UI", "PingFang SC",
+  "Hiragino Sans GB",
+  "Helvetica Neue", Helvetica, Arial,
+  sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
+}
+:global(#root) {
+  height: 100%;
+}
+
+:global(.ant-layout) {
+  min-height: 100%;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ul,ol{
+  padding: 0;
+  margin: 0;
+}
+ul li{
+  list-style: none;
+}
+// temp fix for https://github.com/ant-design/ant-design/commit/a1fafb5b727b62cb0be29ce6e9eca8f579d4f8b7
+:global {
+  .ant-spin-container {
+    overflow: visible !important;
+  }
+
+  .global-spin {
+    width: 100%;
+    margin: 40px 0 !important;
+  }
+  .emptyData {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 40px;
+    color: #999;
+    letter-spacing: .15em;
+    &+div{
+      padding-bottom: 150px;
+    }
+    img {
+      display: block;
+      width: 220px;
+      margin: 0 auto 15px;
+    }
+  }
+  .ant-layout-sider-children{
+    .ant-menu-inline  .ant-menu-item{
+      margin: 0;
+      &:not(:last-child){
+        margin-bottom: 0;
+      }
+    }
+  }
+
+}
+
+

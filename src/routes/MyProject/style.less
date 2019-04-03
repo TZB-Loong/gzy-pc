@@ -1,0 +1,59 @@
+.detailInfo {
+  ul {
+    border: 1px solid #dedede;
+    border-bottom: none;
+    li {
+      line-height: 45px;
+      border-bottom: 1px solid #dedede;
+      padding: 5px 15px;
+      span {
+        color: #999;
+      }
+    }
+  }
+}
+
+.ReviewCard {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  justify-content: space-between;
+  padding: 10px 0px; // border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  div {
+    padding-top: 5px;
+  }
+  border-bottom: 1px solid #e8e8e8;
+}
+.projectFlow {
+  :global {
+    .ant-tabs-bar {
+      margin-bottom: -1px;
+      z-index: 8;
+      position: relative;
+    }
+  }
+}
+.projectList {
+  :global {
+    .ant-list-item {
+      border-bottom: 0px solid #dedede;
+      color: #666;
+      cursor: default;
+    }
+    .ant-list-item-content {
+      .ant-col-4 {
+        text-align: right;
+        margin-right: 10px;
+        max-width: 200px;
+        color: #333757;
+      }
+    }
+  }
+}
+
+.t_c {
+  color: #333757;
+  margin-right: 5px;
+}

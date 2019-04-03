@@ -1,0 +1,86 @@
+@import '~antd/lib/style/themes/default.less';
+.errorInfo {
+  :global {
+    .ant-table-tbody {
+      td {
+        color: @error-color;
+      }
+    }
+  }
+}
+:global {
+  .ant-select-tree li ul {
+    margin: 0;
+    padding: 0 0 0 18px;
+    display: flex;
+    width: 369px;
+    flex-wrap: wrap;
+  }
+}
+.setBtnArea{
+  position: relative;
+  :global{
+    .ant-select-tree-switcher_close,.ant-select-tree-switcher_open{
+      position: absolute !important;
+      left: 10px;
+      width: 100% !important;
+      text-align: left !important;
+      z-index: 9999;
+    }
+    .ant-select-tree-node-content-wrapper.ant-select-tree-node-content-wrapper-open,.ant-select-tree-node-content-wrapper.ant-select-tree-node-content-wrapper-close{
+      margin-left: 30px !important;
+      padding: 0;
+      span{
+        color: #666 !important;
+      }
+    }
+  }
+}
+
+.Condition {
+  .ConditionCont {
+    border-bottom: 1px solid #dedede;
+    span {
+      display: inline-block;
+      padding: 15px 10px;
+      cursor: pointer;
+    }
+    .active {
+      color: @primary-color;
+    }
+  }
+  .moreCon {
+    height: 51px;
+    overflow: hidden;
+  }
+  .more {
+    text-align: center;
+  }
+  .list {
+    max-height: 365px;
+    overflow-y: scroll;
+  }
+  .search {
+    padding: 15px 0;
+    border-bottom: 1px solid #dedede;
+  }
+}
+.nodeMargin{
+  margin-bottom: 10px;
+}
+.selectData {
+  span {
+    display: inline-block;
+    padding: 0 5px;
+    border: 1px solid @border-color-base;
+    border-radius: 3px;
+    line-height: 30px;
+    margin-right: 10px;
+    i {
+      cursor: pointer;
+      &:hover {
+        color: #1890ff;
+      }
+    }
+  }
+}
